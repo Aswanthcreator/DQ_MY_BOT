@@ -59,7 +59,7 @@ UPDATE_CHANNEL_LNK = environ.get('UPDATE_CHANNEL_LNK', 'https://t.me/')
 AUTH_CHANNEL = environ.get("AUTH_CHANNEL", "-1002661445312") # add multiple channels here, separated by single space
 AUTH_REQ_CHANNEL = environ.get('AUTH_REQ_CHANNEL', '-1002661445312') # add multiple channels here, separated by single space
 
-IS_VERIFY = is_enabled('IS_VERIFY', True)
+IS_VERIFY = is_enabled('IS_VERIFY', False)
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '100'))
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-100'))
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://telegra.ph/file/9ecc5d6e4df5b83424896.jpg")
@@ -92,7 +92,7 @@ IMDB = is_enabled((environ.get('IMDB', "False")), False)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
 DELETE_TIME = int(environ.get("DELETE_TIME", "300"))  
-LINK_MODE = is_enabled((environ.get('LINK_MODE', "True")), True)
+LINK_MODE = is_enabled((environ.get('LINK_MODE', "False")), False)
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", f"{script.IMDB_TEMPLATE_TXT}")
@@ -105,8 +105,8 @@ MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "False")), False)
 PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), True)
 PM_SEARCH = bool(environ.get('PM_SEARCH', True)) 
 EMOJI_MODE = bool(environ.get('EMOJI_MODE', False)) 
-PAID_STREAM = bool(environ.get('PAID_STREAM', True)) 
-STREAM_MODE = bool(environ.get('STREAM_MODE', True))
+PAID_STREAM = bool(environ.get('PAID_STREAM', False)) 
+STREAM_MODE = bool(environ.get('STREAM_MODE', False))
 MAINTENANCE_MODE = bool(environ.get('MAINTENANCE_MODE', False)) 
 
 
