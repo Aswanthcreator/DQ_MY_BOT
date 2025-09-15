@@ -94,17 +94,17 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-                                InlineKeyboardButton(f'⚙️ Bᴏᴛ Uᴩᴅᴀᴛᴇꜱ Cʜᴀɴɴᴇʟ ⚙️', url='https://t.me/+fgT9ogX7z144NjM1'), 
+          InlineKeyboardButton(f'⚙️ ᴏᴛᴛ - 2⚙️',                       url='https://t.me/+fgT9ogX7z144NjM1'), 
 
-            InlineKeyboardButton(f'⚔️ Cɪɴᴇᴍᴀ Cᴏᴍᴩᴀɴʏ Uᴩᴅᴀᴛᴇꜱ ⚔️', url='https://t.me/TBM_Bot_Updates'),
+            InlineKeyboardButton(f'🔸ᴄʜᴀɴɴᴇʟ🔸', url='https://t.me/TBM_Bot_Updates'),
               ],[
 
-            InlineKeyboardButton('+ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs +', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
 
               ],[
-            InlineKeyboardButton(f'⚓ Mᴏᴠɪᴇ Sᴇᴀʀᴄʜ Gʀᴏᴜᴩ ⚓', url='https://t.me/CINEMA_COMPANYE_Backup'),
+            InlineKeyboardButton(f'🔹ɢʀᴏᴜᴩ🔹', url='https://t.me/CINEMA_COMPANYE_Backup'),
 
-            InlineKeyboardButton(f'🖥️ Oᴛᴛ Uᴩᴅᴀᴛᴇꜱ Cʜᴀɴɴᴇʟ 🖥️', url='https://t.me/+JObo3SXOiZRlNzll')
+            InlineKeyboardButton(f'🖥️ Oᴛᴛ - 1 🖥️', url='https://t.me/+JObo3SXOiZRlNzll')
                 ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_text(
