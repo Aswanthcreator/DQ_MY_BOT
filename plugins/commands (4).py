@@ -294,11 +294,11 @@ async def start(client, message):
             if STREAM_MODE:
                 btn = [
                     [InlineKeyboardButton('', callback_data=f'streamfile:{file_id}')],
-                    [InlineKeyboardButton('', url=UPDATE_CHANNEL_LNK)]  
+                    [InlineKeyboardButton('𝖦𝖾𝗇𝖾𝗋𝖺𝗍𝖾 𝖲𝗍𝗋𝖾𝗆𝗂𝗇𝗀 𝖫𝗂𝗇𝗄', url=UPDATE_CHANNEL_LNK)]  
                 ]
             else:
                 btn = [
-                    [InlineKeyboardButton('', url=UPDATE_CHANNEL_LNK)]
+                    [InlineKeyboardButton('𝖴𝗉𝖽𝖺𝗍𝖾 𝖢𝗁𝖺𝗇𝗇𝖾𝗅', url=UPDATE_CHANNEL_LNK)]
                 ]
             msg = await client.send_cached_media(
                 chat_id=message.from_user.id,
@@ -324,12 +324,12 @@ async def start(client, message):
             if STREAM_MODE:
                 btn = [
                     [InlineKeyboardButton('', callback_data=f'streamfile:{file_id}')],
-                    [InlineKeyboardButton('', url=UPDATE_CHANNEL_LNK)]
+                    [InlineKeyboardButton('𝖦𝖾𝗇𝖾𝗋𝖺𝗍𝖾 𝖲𝗍𝗋𝖾𝗆𝗂𝗇𝗀 𝖫𝗂𝗇𝗄𝗅', url=UPDATE_CHANNEL_LNK)]
              
                 ]
             else:
                 btn = [
-                    [InlineKeyboardButton('', url=UPDATE_CHANNEL_LNK)]
+                    [InlineKeyboardButton('𝖴𝗉𝖽𝖺𝗍𝖾 𝖢𝗁𝖺𝗇𝗇𝖾𝗅', url=UPDATE_CHANNEL_LNK)]
                 ]
             msg = await client.send_cached_media(
                 chat_id=message.from_user.id,
@@ -377,11 +377,11 @@ async def start(client, message):
     if STREAM_MODE:
         btn = [
             [InlineKeyboardButton('', callback_data=f'streamfile:{file_id}')],
-            [InlineKeyboardButton('', url=UPDATE_CHANNEL_LNK)]
+            [InlineKeyboardButton('𝖦𝖾𝗇𝖾𝗋𝖺𝗍𝖾 𝖲𝗍𝗋𝖾𝗆𝗂𝗇𝗀 𝖫𝗂𝗇𝗄', url=UPDATE_CHANNEL_LNK)]
         ]
     else:
         btn = [
-            [InlineKeyboardButton('', url=UPDATE_CHANNEL_LNK)]
+            [InlineKeyboardButton('𝖴𝗉𝖽𝖺𝗍𝖾 𝖢𝗁𝖺𝗇𝗇𝖾𝗅', url=UPDATE_CHANNEL_LNK)]
         ]
     msg = await client.send_cached_media(
         chat_id=message.from_user.id,
