@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/NBBotz/Images/blob/main/Lucia.jpg">
+  <img src="https://graph.org/file/141abbf54c2a9e2d6e4d5-2cde7606bf0d3f9621.jpg">
 </p>
 
 <h1 align="center">𝑪𝐢𝐧𝐞𝐦𝐚_𝐋𝐨𝐤𝐚𝐦_𝐌𝐨𝐯𝐢𝐞𝐬</h1>
@@ -7,9 +7,6 @@
 <p align="center">
   <a href="[https://t.me/Cinema_Lokam_Movies](𝑪𝐢𝐧𝐞𝐦𝐚_𝐋𝐨𝐤𝐚𝐦_𝐌𝐨𝐯𝐢𝐞𝐬)">
     <img src="https://img.shields.io/badge/Join-Support%20Group-blue?style=for-the-badge&logo=telegram">
-  </a>
-  <a href="http://t.me/Lucia_Filter_Bot">
-    <img src="https://img.shields.io/badge/Demo%20Bot-Click%20Here-green?style=for-the-badge&logo=telegram">
   </a>
 </p>
 
