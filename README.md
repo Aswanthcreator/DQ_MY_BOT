@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://graph.org/file/141abbf54c2a9e2d6e4d5-2cde7606bf0d3f9621.jpg">
+  <img src="https://graph.org/file/695021cdd2db71dd6fddd-f9d782b768ee7de9af.jpg">
 </p>
 
 <h1 align="center">𝑪𝐢𝐧𝐞𝐦𝐚_𝐋𝐨𝐤𝐚𝐦_𝐌𝐨𝐯𝐢𝐞𝐬</h1>
